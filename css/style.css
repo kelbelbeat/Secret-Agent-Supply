@@ -1,0 +1,289 @@
+
+html{
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.logo {
+    width:100%;
+    display:flex;
+    flex-flow: row;
+
+}
+
+.logo span {
+    color:white;
+    font-size: 1rem;
+    font-family: Helvetica;
+    margin:0.66rem;
+}
+
+
+header {
+    background-color:black;
+}
+
+header img {
+  display:inline-flex;
+}
+
+header p {
+    color:white;
+}
+
+.wrap-banner {
+    display:flex;
+    background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    justify-content: center;
+    height:25rem;
+    width:100%px;
+}
+
+.insert p,
+h1 {
+    color:white;
+
+}
+
+.insert {
+    background-color:black;
+    position:relative;
+    top: 9rem;
+    width: 25rem;
+}
+nav {
+    background-color: firebrick;
+}
+nav span{
+    color:white;
+    font-family: Helvetica;
+}
+
+.icons span {
+    color:white;
+}
+
+Footer {
+    color:white;
+}
+
+.location {
+    color:white;
+    display:flex;
+    width:35%;
+    padding: 1rem 2rem;
+    background-color: black;
+    margin:0 0;
+}
+.location p{}
+}
+
+.Hours {
+    color:white;
+}
+
+.logo img {
+    margin-left:0.5rem;
+    height:1.5rem;
+    margin-top:0.5rem;
+}
+
+
+.arrivals {
+    font-family:Helvetica;
+    padding:2rem 3rem;
+    width:20rem;
+
+}
+
+.arrivals p {
+    font-family:Helvetica;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+.arrivals h1 {
+    font-family: Helvetica;
+    font-size:2rem;
+    font-weight:bold;
+    margin-top:0.25rem;
+}
+
+.site-container {
+    margin:0 auto;
+}
+
+.icon span {
+    display:block;
+  font-family: Helvetica;
+    font-size:1rem;
+    color:white;
+    background-color:black;
+    padding:0.5rem;
+    text-align: center;
+    width:100%;
+}
+
+.hours {
+    background-color:black;
+    width:35%;
+    color:white;
+    padding: 1rem 2rem;
+}
+
+.container {
+    font-family:Helvetica;
+    margin:0px auto;
+
+}
+
+.icons {
+    display:flex;
+    justify-content: space-around;
+    flex-flow: row;
+    margin:3rem 0 0 0;
+    flex-wrap:wrap;
+}
+
+
+.icon{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 2rem;
+    background-color:white;
+    border:4px solid black;
+    width:30%;
+}
+
+.icon img{
+   height:9rem;
+margin-top:2rem;
+    margin-bottom:2rem;
+    max-width:8rem;
+    text-align:center;
+
+}
+
+.extra-nav {
+    display:flex;
+    justify-content: space-around;
+    padding: 0.75rem;
+}
+
+.container-info {
+     display:flex;
+    justify-content: space-between;
+    margin:3rem 0 0;
+}
+
+.info-location {
+    background-color:black;
+    display:block;
+    padding:1rem 2rem;
+    color:white;
+}
+
+.business-info {
+display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+    margin:3rem 0 0 0;
+}
+
+
+
+
+
+.info {
+    width:35%;
+
+}
+
+.end-container{
+    background-color:black;
+    height:5rem;
+}
+
+.tailend-container {
+    display:flex;
+    align-items: center;
+    height:5rem;
+    background-color: black;
+    margin-top:4rem;
+    text-align:left;
+    font-family:Helvetica;
+    font-size:1rem;
+}
+
+.third img {
+    width:9rem;
+    height:auto;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+}
+
+.first img {
+    height:9rem;
+    padding-bottom: 2rem;
+}
+@media only screen and (max-width: 1024px), (orientation:portrait)
+{
+    .icons .third{
+        display:none;
+    }
+    .xx-nav{
+        display:none;
+    }
+
+    .logo{
+        height:1.75rem;
+    }
+    .logo span{
+        font-size:1.25rem;
+    }
+}
+@media only screen and (min-width: 1024px){
+.exception-nav {
+    display:none;
+    color:white;
+    padding:0.75rem auto;
+}
+}
+
+.banner {
+    width:960px;
+}
+@media only screen and (max-width: 470px){
+    .arrivals p {
+    font-size:0.77rem;
+    font-weight:bold;
+    font-family:Helvetica;
+    margin-top: 1rem;
+    }
+    .arrivals h1{
+        font-size:1rem;
+        font-weight:bold;
+        font-family: Helvetica;
+    }
+    .arrivals{
+        margin-left:2rem;
+    }
+    .wrap-banner{
+        height:15rem;
+    }
+    .insert{
+        margin-top:10rem;
+    }
+    .icons .second{
+        display:none;
+    }
+    .icons{
+        width:90%;
+    }
+}
